@@ -20,10 +20,10 @@
         <td><%= restaurant.address %></td>
         <td><%= restaurant.phone_number %></td>
         <td><%= restaurant.category %></td>
-        <td><%= link_to 'Show', restaurant %></td>
+        <td><%= link_to 'Show', restaurant , class: "btn btn-outline-secondary"%></td>
       </tr>
     <% end %>
   </tbody>
 </table>
-<%= link_to 'New Restaurant', new_restaurant_path %>
+<%= link_to 'New Restaurant', new_restaurant_path, class: "btn btn-outline-secondary" %>
 <br>
